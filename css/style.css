@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #000000;
+    min-height: 85px;
+    border-bottom: 7px solid #c6a908;
+}
+
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+
+.logo h1{
+    color: white;
+    line-height: 24px;
+    padding-top: 16px;
+}
+.logo h1 span{
+    font-size: 15px;
+    margin-left: 10px;
+    color: gray;
+}
+.navbar {
+       float: right;
+       border: 1px solid white;
+       margin-top: 22px;
+       border-radius: 25px;
+     }
+.navbar ul{    
+}
+.navbar ul li{
+    float: left;
+    padding: 10px 30px;
+    list-style: none;
+    border-right: 1px solid white;
+}
+.navbar ul li:last-child{
+    border-right: none;
+}
+.navbar ul li a{
+    color: #fff;
+    text-decoration: none;
+   
+}
+.navbar ul li a:hover{
+    color: #c6a908;
+}
+.content{
+    min-height: 365px;
+    background-color: gray;
+}
+.img-left{
+    width: 40%;
+    float: left;
+}
+.img-left img{
+  margin: 35px 14px;
+  border: 8px solid white;
+ border-radius: 28px;
+}
+.border{
+   border-left: 5px solid #c6a908;
+padding-left: 25px;
+}
+.lines{
+    position: relative;
+    width: 90%;
+    border: 1px solid #c6a908;
+    z-index: 1;
+    margin-bottom: 25px;
+}
+.lines:before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 20%;
+    z-index: 2;
+    border: 2px solid #c6a908;
+    top: 0px;
+}
+.text-right{
+    float: right;
+    width: 50%;
+    margin: 35px 0px;
+}
+.text-right h1{
+    color: white;
+    font-size: 45px;
+    font-style: italic;
+    
+}
+.text-right h1 span{
+   color: black;
+    font-style: italic;
+    font-size: 20px;
+}
+.text-right button{
+        background: #c6a908;
+        margin: 31px 3px;
+        height: 36px;
+        width: 105px;
+        border-radius: 8px;
+        font-style: italic;
+        border: 1px solid black;
+}
+.footer{
+    min-height: 590px;
+    background-color: white;
+    border-bottom: 5px solid #c6a908;
+}
+.footer-left{
+    float: left;
+    width: 60%;
+    padding: 30px 1px;
+    margin: 12px auto;
+}
+.footer-left ul li {
+      margin-left: 38px;
+}
+.footer-sidebar {
+    float: right;
+    width: 35%;
+    height: 500px;
+    margin-top: 20px;
+}
+.sidebarheader{
+    text-align: center;
+    background: black;
+    color: white;
+    height: 45px;
+}
+.sidebar01{
+    height: 150px;
+    background: #e1e0df;
+}
+.sidimg{
+    margin: 1px 1px;
+    padding: 25px 15px;
+    float: left;
+}
+.sidtext{
+     padding: 27px 1px;
+    font-size: 10px;
+}
+.sidebar03{
+    height: 150px;
+    background: #e1e0df;
+    clear: both;
+}
+.sidimg03{
+    margin: 1px 1px;
+    padding: 25px 15px;
+    float: left;
+}
+.sidtext03{
+     padding: 27px 1px;
+    font-size: 10px;
+}
